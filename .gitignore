@@ -1,3 +1,5 @@
-# exclude data from source control by default
-/data/
-.csv
+# Exclude data from source control by default
+*.csv
+.ipynb_checkpoints/
+__pycache__
+.conda
